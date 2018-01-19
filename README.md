@@ -1,4 +1,4 @@
-## Different toosl for docker-sync
+## Different tools for docker-sync
 
 See http://docker-sync.io for more informations.
 
