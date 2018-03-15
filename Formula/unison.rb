@@ -2,7 +2,7 @@ class Unison < Formula
   desc "File synchronization tool for OSX"
   homepage "https://www.cis.upenn.edu/~bcpierce/unison/"
   url "https://github.com/bcpierce00/unison/archive/v2.51.2.tar.gz"
-  version "2.52.2"
+  #version "2.52.2"
   sha256 "a2efcbeab651be6df69cc9b253011a07955ecb91fb407a219719451197849d5e"
 
   bottle do
