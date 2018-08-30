@@ -2,7 +2,7 @@ class Unox < Formula
   # see http://docs.brew.sh/Python-for-Formula-Authors.html
   desc 'A layer for unison-fsmonitor arround either macfsevents or watchdog for usage with unison'
   homepage 'https://github.com/hnsl/unox'
-  url 'https://codeload.github.com/hnsl/unox/tar.gz/0.2.0'
+  url 'https://github.com/hnsl/unox/archive/0.2.0.tar.gz'
   head 'https://github.com/hnsl/unox.git', :using => :git, :revision => '0.2.0'
   sha256 '163668398356619d0b422f7e067836754d6eae6bf63058bac3f4c7c70182e837'
   revision 1
