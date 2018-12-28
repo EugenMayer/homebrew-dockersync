@@ -6,8 +6,7 @@ class Unox < Formula
   head 'https://github.com/hnsl/unox.git', :using => :git, :revision => '0.2.0'
   sha256 '163668398356619d0b422f7e067836754d6eae6bf63058bac3f4c7c70182e837'
   revision 1
-  depends_on :python => :recommended if MacOS.version <= :snow_leopard
-  depends_on "python3" => :optional
+  depends_on "python@2" =>
 
   resource 'watchdog' do
     url 'https://pypi.python.org/packages/54/7d/c7c0ad1e32b9f132075967fc353a244eb2b375a3d2f5b0ce612fd96e107e/watchdog-0.8.3.tar.gz'
