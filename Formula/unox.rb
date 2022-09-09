@@ -5,7 +5,7 @@ class Unox < Formula
   url 'https://github.com/hnsl/unox/archive/0.2.0.tar.gz'
   head 'https://github.com/hnsl/unox.git', :using => :git, :revision => '0.2.0'
   sha256 '163668398356619d0b422f7e067836754d6eae6bf63058bac3f4c7c70182e837'
-  revision 1
+  revision 2
   depends_on "python@3.9"
 
   resource 'watchdog' do
